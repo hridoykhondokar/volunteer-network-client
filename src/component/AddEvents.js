@@ -13,7 +13,7 @@ const AddEvents = () => {
              imageUrl: imageUrl
          };
 
-         const url =`http://localhost:5500/addEvent`
+         const url =`https://pure-sea-11849.herokuapp.com/addEvent`
          console.log(data)
 
          fetch(url,{
